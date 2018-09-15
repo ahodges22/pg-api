@@ -7,5 +7,9 @@
 ### To Run With Debug Logging
 ```python app.py --log DEBUG```
 
+### Sample Curl Commands
+```curl -H "Accept: application/json" http://127.0.0.1:5000/```
+```curl http://127.0.0.1:5000/```
+
 ### To Test
 ```python test_app.py```
