@@ -1,15 +1,19 @@
 ## PG Test API
 
+### Dependencies
+* Make
+* Docker
+
 ### To Run
-1. Install Python Modules (Flask): ```pip install -r requirements.txt```
-1. Start Flask Server: ```python app.py```
+```sudo make run```
 
 ### To Run With Debug Logging
-```python app.py --log DEBUG```
+```sudo make debug```
+
+### To Run Unit Tests
+```sudo make test```
 
 ### Sample Curl Commands
 ```curl -H "Accept: application/json" http://127.0.0.1:5000/```
-```curl http://127.0.0.1:5000/```
 
-### To Test
-```python test_app.py```
+```curl http://127.0.0.1:5000/```
